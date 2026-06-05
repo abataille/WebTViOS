@@ -112,17 +112,9 @@
 				37F2E94A2DD48DBE008D9333 /* ImprovedChannelView.swift */,
 				B3112C3025811DF4007F45CE /* Persistence */,
 				B3112C3225811E21007F45CE /* Media */,
-				B32508C523DF2152009E1C40 /* Preview Content */,
 				37F2E9482DD48CE3008D9333 /* Localizable.xcstrings */,
 			);
 			path = WebTViOS;
-			sourceTree = "<group>";
-		};
-		B32508C523DF2152009E1C40 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		B3E2CFBC25825E6100F2BA4A /* Frameworks */ = {
