@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37CE12D82F3753A2005C80BC /* icon-1293234_1280.png in Resources */ = {isa = PBXBuildFile; fileRef = 37CE12D62F3753A2005C80BC /* icon-1293234_1280.png */; };
+		37F2E9492DD48CE3008D9333 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 37F2E9482DD48CE3008D9333 /* Localizable.xcstrings */; };
+		37F2E94B2DD48DBE008D9333 /* ImprovedChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2E94A2DD48DBE008D9333 /* ImprovedChannelView.swift */; };
+		37F2E94D2DD48DC0008D9333 /* HeaderToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2E94C2DD48DC0008D9333 /* HeaderToolbarView.swift */; };
+		37F2E9512DD48DC4008D9333 /* ChannelGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2E9502DD48DC4008D9333 /* ChannelGridView.swift */; };
+		37F2E9532DD48DC6008D9333 /* SenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2E9522DD48DC6008D9333 /* SenderCell.swift */; };
+		37F2E9552DD48DC8008D9333 /* AVPlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F2E9542DD48DC8008D9333 /* AVPlayerLayerView.swift */; };
+		B3112B6B2580E37F007F45CE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3112B6A2580E37F007F45CE /* logo.png */; };
+		B3112C382581315F007F45CE /* Channel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3112C362581315F007F45CE /* Channel+CoreDataClass.swift */; };
+		B3112C392581315F007F45CE /* Channel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3112C372581315F007F45CE /* Channel+CoreDataProperties.swift */; };
+		B312AB1723E42ED4005ED5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312AB1623E42ED4005ED5FF /* Assets.xcassets */; };
+		B32508BE23DF2150009E1C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32508BD23DF2150009E1C40 /* AppDelegate.swift */; };
+		B32508C023DF2150009E1C40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32508BF23DF2150009E1C40 /* SceneDelegate.swift */; };
+		B32508C223DF2150009E1C40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32508C123DF2150009E1C40 /* ContentView.swift */; };
+		B3A012A029361AE1008A56DB /* AVPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A0129F29361AE1008A56DB /* AVPlayerView.swift */; };
+		B3B44CAD2566B8BA00F58793 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B44CAC2566B8BA00F58793 /* Styles.swift */; };
+		B3D7FA6F258F5C6E0056502C /* ChannelData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3D7FA6D258F5C6E0056502C /* ChannelData.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37CE12D62F3753A2005C80BC /* icon-1293234_1280.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-1293234_1280.png"; sourceTree = "<group>"; };
+		37F2E9482DD48CE3008D9333 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		37F2E94A2DD48DBE008D9333 /* ImprovedChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovedChannelView.swift; sourceTree = "<group>"; };
+		37F2E94C2DD48DC0008D9333 /* HeaderToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderToolbarView.swift; sourceTree = "<group>"; };
+		37F2E9502DD48DC4008D9333 /* ChannelGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelGridView.swift; sourceTree = "<group>"; };
+		37F2E9522DD48DC6008D9333 /* SenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderCell.swift; sourceTree = "<group>"; };
+		37F2E9542DD48DC8008D9333 /* AVPlayerLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayerView.swift; sourceTree = "<group>"; };
+		B3112B6A2580E37F007F45CE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B3112C362581315F007F45CE /* Channel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B3112C372581315F007F45CE /* Channel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Channel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B312AB1623E42ED4005ED5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32508BA23DF2150009E1C40 /* WebTViOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebTViOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32508BD23DF2150009E1C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B32508BF23DF2150009E1C40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B32508C123DF2150009E1C40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B32508CB23DF2152009E1C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A0129F29361AE1008A56DB /* AVPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerView.swift; sourceTree = "<group>"; };
+		B3B44CAC2566B8BA00F58793 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		B3D7FA6E258F5C6E0056502C /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32508B723DF2150009E1C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3112C3025811DF4007F45CE /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B3D7FA6D258F5C6E0056502C /* ChannelData.xcdatamodeld */,
+				B3112C362581315F007F45CE /* Channel+CoreDataClass.swift */,
+				B3112C372581315F007F45CE /* Channel+CoreDataProperties.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B3112C3225811E21007F45CE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B3112B6A2580E37F007F45CE /* logo.png */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		B32508B123DF2150009E1C40 = {
+			isa = PBXGroup;
+			children = (
+				B32508BC23DF2150009E1C40 /* WebTViOS */,
+				B32508BB23DF2150009E1C40 /* Products */,
+				B3E2CFBC25825E6100F2BA4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B32508BB23DF2150009E1C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32508BA23DF2150009E1C40 /* WebTViOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32508BC23DF2150009E1C40 /* WebTViOS */ = {
+			isa = PBXGroup;
+			children = (
+				37CE12D62F3753A2005C80BC /* icon-1293234_1280.png */,
+				B32508CB23DF2152009E1C40 /* Info.plist */,
+				B312AB1623E42ED4005ED5FF /* Assets.xcassets */,
+				B32508BD23DF2150009E1C40 /* AppDelegate.swift */,
+				B32508BF23DF2150009E1C40 /* SceneDelegate.swift */,
+				B32508C123DF2150009E1C40 /* ContentView.swift */,
+				37F2E94C2DD48DC0008D9333 /* HeaderToolbarView.swift */,
+				37F2E9502DD48DC4008D9333 /* ChannelGridView.swift */,
+				37F2E9522DD48DC6008D9333 /* SenderCell.swift */,
+				37F2E9542DD48DC8008D9333 /* AVPlayerLayerView.swift */,
+				B3A0129F29361AE1008A56DB /* AVPlayerView.swift */,
+				B3B44CAC2566B8BA00F58793 /* Styles.swift */,
+				37F2E94A2DD48DBE008D9333 /* ImprovedChannelView.swift */,
+				B3112C3025811DF4007F45CE /* Persistence */,
+				B3112C3225811E21007F45CE /* Media */,
+				B32508C523DF2152009E1C40 /* Preview Content */,
+				37F2E9482DD48CE3008D9333 /* Localizable.xcstrings */,
+			);
+			path = WebTViOS;
+			sourceTree = "<group>";
+		};
+		B32508C523DF2152009E1C40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3E2CFBC25825E6100F2BA4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32508B923DF2150009E1C40 /* WebTViOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32508CE23DF2152009E1C40 /* Build configuration list for PBXNativeTarget "WebTViOS" */;
+			buildPhases = (
+				B32508B623DF2150009E1C40 /* Sources */,
+				B32508B723DF2150009E1C40 /* Frameworks */,
+				B32508B823DF2150009E1C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebTViOS;
+			packageProductDependencies = (
+			);
+			productName = WebTViOS;
+			productReference = B32508BA23DF2150009E1C40 /* WebTViOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32508B223DF2150009E1C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 2600;
+				ORGANIZATIONNAME = "Raymund Vorwerk";
+				TargetAttributes = {
+					B32508B923DF2150009E1C40 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B32508B523DF2150009E1C40 /* Build configuration list for PBXProject "WebTViOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32508B123DF2150009E1C40;
+			packageReferences = (
+			);
+			productRefGroup = B32508BB23DF2150009E1C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32508B923DF2150009E1C40 /* WebTViOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32508B823DF2150009E1C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CE12D82F3753A2005C80BC /* icon-1293234_1280.png in Resources */,
+				B3112B6B2580E37F007F45CE /* logo.png in Resources */,
+				37F2E9492DD48CE3008D9333 /* Localizable.xcstrings in Resources */,
+				B312AB1723E42ED4005ED5FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32508B623DF2150009E1C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F2E9552DD48DC8008D9333 /* AVPlayerLayerView.swift in Sources */,
+				37F2E9512DD48DC4008D9333 /* ChannelGridView.swift in Sources */,
+				B3B44CAD2566B8BA00F58793 /* Styles.swift in Sources */,
+				B32508BE23DF2150009E1C40 /* AppDelegate.swift in Sources */,
+				B3112C382581315F007F45CE /* Channel+CoreDataClass.swift in Sources */,
+				37F2E94D2DD48DC0008D9333 /* HeaderToolbarView.swift in Sources */,
+				B32508C023DF2150009E1C40 /* SceneDelegate.swift in Sources */,
+				B3D7FA6F258F5C6E0056502C /* ChannelData.xcdatamodeld in Sources */,
+				B32508C223DF2150009E1C40 /* ContentView.swift in Sources */,
+				B3112C392581315F007F45CE /* Channel+CoreDataProperties.swift in Sources */,
+				37F2E9532DD48DC6008D9333 /* SenderCell.swift in Sources */,
+				B3A012A029361AE1008A56DB /* AVPlayerView.swift in Sources */,
+				37F2E94B2DD48DBE008D9333 /* ImprovedChannelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B32508CC23DF2152009E1C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = C9STR7BGUR;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B32508CD23DF2152009E1C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = C9STR7BGUR;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B32508CF23DF2152009E1C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = WebTViOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.6.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RV.WebTViOSPublic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		B32508D023DF2152009E1C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_FILE_ACCESS_DOWNLOADS_FOLDER = readwrite;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				INFOPLIST_FILE = WebTViOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 2.6.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RV.WebTViOSPublic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32508B523DF2150009E1C40 /* Build configuration list for PBXProject "WebTViOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32508CC23DF2152009E1C40 /* Debug */,
+				B32508CD23DF2152009E1C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B32508CE23DF2152009E1C40 /* Build configuration list for PBXNativeTarget "WebTViOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32508CF23DF2152009E1C40 /* Debug */,
+				B32508D023DF2152009E1C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3D7FA6D258F5C6E0056502C /* ChannelData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3D7FA6E258F5C6E0056502C /* Data.xcdatamodel */,
+			);
+			currentVersion = B3D7FA6E258F5C6E0056502C /* Data.xcdatamodel */;
+			path = ChannelData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B32508B223DF2150009E1C40 /* Project object */;
+}

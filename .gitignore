@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+xcuserdata/
+*.moved-aside
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Large/local media and private channel lists
+*.mp4
+*.mov
+*.m4v
+*.heic
+private-channels.*
+channels.private.*
+
+# Logs
+*.log
