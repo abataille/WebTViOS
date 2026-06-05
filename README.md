@@ -2,6 +2,12 @@
 
 WebTViOS is an open-source SwiftUI iOS app for watching multiple HLS video streams at once. Channels appear in a responsive grid; selecting a channel pauses the other previews and promotes the selected stream to fullscreen playback. Returning to the grid resumes muted live previews at the latest frame.
 
+## Screenshots
+
+![WebTViOS public demo grid](Screenshots/ipad-demo-grid.jpg)
+
+The screenshot uses only bundled public demo streams. Private or non-public channel URLs should not be committed.
+
 ## What this repository includes
 
 - A SwiftUI multi-stream grid built around `AVPlayer` and `AVPlayerLayer`.
