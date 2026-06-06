@@ -52,15 +52,15 @@
 	<array>
 		<string>audio</string>
 	</array>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIImageName</key>
 		<string>logo1</string>
 	</dict>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
